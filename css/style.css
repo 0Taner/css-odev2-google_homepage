@@ -1,3 +1,16 @@
+.pic-headerli {
+  
+}
+
+.user-selectnone {
+  user-select: none;
+}
+
+.voice-logo {
+  width: 25px;
+  
+}
+
 .header {
   list-style-type: none;
   margin: 10px;
@@ -48,6 +61,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: flex;
   padding: 5px 8px 0 16px;
   padding-left: 14px;
+  align-items: center;
 }
 
 .search-img {
@@ -55,6 +69,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   align-items: center;
   padding-right: 13px;
   margin-top: -5px;
+  
 }
 
 .search-img span {
@@ -114,7 +129,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .googlesearch {
   margin: 11px 4px;
-  padding: 0px 16px;
+  padding: 5px 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
@@ -124,15 +139,22 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   font-family: Arial;
   color: #5f6368;
   font-size: 14px;
+  height: 36px;
+
 }
 
 .feelinglucky {
-  padding: 0 16px;
+  padding: 5px 16px;
   line-height: 27px;
   min-width: 54px;
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border: 1px #f2f2f2;
+  font-family: Arial;
+  color: #5f6368;
+  font-size: 14px;
+  height: 36px;
 }
 
 .footer {
@@ -146,6 +168,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  list-style-type: none;
 }
 
 .footerli {
